@@ -1,7 +1,9 @@
 .section {
   width: 100vw;
   height: 100vh;
-  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .video__wrapper {
@@ -28,6 +30,7 @@
   top: -2rem;
   position: relative;
   z-index: 10;
+  aspect-ratio: 4/3;
 }
 
 .vid__container.thumbnail {
@@ -85,7 +88,6 @@ video {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  
 }
 
 nav {
@@ -93,6 +95,7 @@ nav {
   height: 10vh;
   display: flex;
   align-items: center;
+  padding-inline: 1rem;
 }
 
 .redundant {

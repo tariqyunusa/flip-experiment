@@ -29,13 +29,13 @@ function App() {
 
   return (
     <section className="section">
-      <nav>
+      {/* <nav>
         <div>
           <h3>
             Tariq<br />Yunusa
           </h3>
         </div>
-      </nav>
+      </nav> */}
       <div className="redundant">
         <div className="video__wrapper">
           {videos.map((vid, idx) => (
